@@ -8,6 +8,14 @@
   text-decoration: none !important;
 }
 
+.my-container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 :root {
   /* font faimly */
   --ff-hele: "helevtica", sans-serif;

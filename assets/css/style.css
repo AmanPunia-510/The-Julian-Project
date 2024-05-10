@@ -78,3 +78,46 @@ p {
 .submit-txt {
   color: #b0aeac;
 }
+
+/* --------------------------------------------- section1 price ---------------------------------------------- */
+
+.sec1-box {
+  min-height: 290px;
+  padding: 44px 51px 38px 51px;
+  border-radius: 16px;
+  transform: translateY(-89px);
+  background-color: var(--white-color);
+  box-shadow: 0px 4px 20px 0px #b6b6b640;
+}
+
+.sec1-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(
+    146.26deg,
+    rgba(238, 221, 191, 0.32) 6.74%,
+    rgba(199, 138, 17, 0.32) 110.03%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.commen-prize-svg {
+  background: linear-gradient(146.79deg, #f4ead8 0%, #e0b764 97.77%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.prize-txt {
+  color: #1a1a1a;
+}
+
+.prize-card1 {
+  width: fit-content !important;
+}
