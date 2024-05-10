@@ -1,0 +1,80 @@
+@import url("../css/root.css");
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-36 {
+  gap: 36px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------------------------- header -------------------------------------------------- */
+
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/png/Hero.png");
+}
+
+.commen-btn {
+  width: 150px;
+  height: 56px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+.submit-btn,
+.header-h {
+  background-color: transparent;
+  background: linear-gradient(146.79deg, #f4ead8 0%, #e0b764 97.77%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.submit-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 150px;
+  height: 1px;
+  background: linear-gradient(146.79deg, #f4ead8 0%, #e0b764 97.77%);
+  transition: all 100ms linear;
+  cursor: pointer;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 3px;
+}
+
+.nav-list a,
+.header-p {
+  color: #b2afac;
+}
+
+.header-p {
+  max-width: 436px;
+}
+
+.submit-txt {
+  color: #b0aeac;
+}
