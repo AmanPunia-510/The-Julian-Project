@@ -57,6 +57,7 @@
   /* colors */
   --white-color: #ffffff;
   --black-color: #000000;
+  --color-1A: #1A1A1A;
 }
 
 /* external font faimly hevetica */
@@ -187,6 +188,10 @@
 
 .black-color {
   color: var(--black-color);
+}
+
+.color-1A{
+  color: var(--color-1A);
 }
 
 @media (max-width: 1200px) {

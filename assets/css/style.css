@@ -1,5 +1,9 @@
 @import url("../css/root.css");
 
+.gap-12{
+  gap: 12px;
+}
+
 .gap-15 {
   gap: 15px;
 }
@@ -17,8 +21,16 @@
   margin-top: 16px;
 }
 
+.mt-28{
+  margin-top: 28px;
+}
+
 .mt-32 {
   margin-top: 32px;
+}
+
+.mt-44{
+  margin-top: 44px;
 }
 
 ul {
@@ -29,6 +41,10 @@ ul {
 p {
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 /* ---------------------------------------------- header -------------------------------------------------- */
@@ -127,7 +143,7 @@ p {
   width: fit-content !important;
 }
 
-/* --------------------------------------------- section2 writing -------------------------------------------- */
+/* --------------------------------------------- video section two -------------------------------------------- */
 
 .sec2-box {
   padding: 15px;
@@ -142,6 +158,8 @@ p {
   border-radius: 6px;
 }
 
+/* --------------------------------------------- writing section three -------------------------------------------- */
+
 .sec3-h {
   color: #090909;
   max-width: 524px;
@@ -149,4 +167,25 @@ p {
 
 .sec3-p {
   color: #5f5f5f;
+}
+
+.sec3-box {
+  padding: 18px 32px;
+}
+
+.sec3-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  padding: 1px;
+  background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.sec3-box-p,.profile-p,.sec3-p2{
+  color: #5F5F5F;
 }
