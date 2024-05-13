@@ -1,6 +1,6 @@
 @import url("../css/root.css");
 
-.gap-12{
+.gap-12 {
   gap: 12px;
 }
 
@@ -21,7 +21,7 @@
   margin-top: 16px;
 }
 
-.mt-28{
+.mt-28 {
   margin-top: 28px;
 }
 
@@ -29,7 +29,7 @@
   margin-top: 32px;
 }
 
-.mt-44{
+.mt-44 {
   margin-top: 44px;
 }
 
@@ -45,6 +45,14 @@ p {
 
 h2 {
   margin: 0;
+}
+
+.max-w-485{
+  max-width: 485px;
+}
+
+.max-w-573{
+  max-width: 573px;
 }
 
 /* ---------------------------------------------- header -------------------------------------------------- */
@@ -179,13 +187,36 @@ h2 {
   inset: 0;
   border-radius: 8px;
   padding: 1px;
-  background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+  background: linear-gradient(146.79deg, #f4ead8 0%, #e0b764 97.77%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
 }
 
-.sec3-box-p,.profile-p,.sec3-p2{
-  color: #5F5F5F;
+.sec3-box-p,
+.profile-p,
+.sec3-p2 {
+  color: #5f5f5f;
+}
+
+/* --------------------------------------------- corona section four -------------------------------------------- */
+
+.section4 {
+  background-image: url("../images/png/section4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec4-h {
+  background-color: transparent;
+  background: linear-gradient(146.26deg, #EEDDBF 6.74%, #C78A11 110.03%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.sec4-p{
+  max-width: 662px;
+  color: #B3B0AC;
 }
