@@ -17,6 +17,11 @@
   padding-bottom: 90px;
 }
 
+.py-120{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .mt-12 {
   margin-top: 12px;
 }
@@ -399,4 +404,18 @@ h2 {
 
 .slider-img{
   object-fit: cover;
+}
+
+/* --------------------------------------------- grant section seven -------------------------------------------- */
+
+.sec7-img{
+  max-width: 481px;
+}
+
+.sec7-h{
+  color: #090909;
+}
+
+.sec7-p1{
+  color: #5F5F5F;
 }
