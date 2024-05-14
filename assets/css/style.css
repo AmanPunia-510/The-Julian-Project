@@ -17,8 +17,16 @@
   padding-bottom: 90px;
 }
 
+.mt-12 {
+  margin-top: 12px;
+}
+
 .mt-16 {
   margin-top: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .mt-28 {
@@ -291,4 +299,104 @@ h2 {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+}
+
+/* --------------------------------------------- wining section five -------------------------------------------- */
+
+.section5 {
+  background-image: url("../images/png/Prize.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.style-italic {
+  font-style: italic;
+}
+
+.sec5-first-p {
+  color: #1a1a1a;
+}
+
+.sec5-box {
+  max-width: 1000px;
+  min-height: 161px;
+  padding: 17px 28px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 4px #d8d8d840;
+}
+
+.sec5-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(
+    146.26deg,
+    rgba(238, 221, 191, 0.32) 6.74%,
+    rgba(199, 138, 17, 0.32) 110.03%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* slick slider code */
+
+.slider-box {
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.slider-box1 {
+  padding: 40px;
+  background-color: var(--white-color);
+}
+
+.slider-box1::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(
+    146.26deg,
+    rgba(238, 221, 191, 0.32) 6.74%,
+    rgba(199, 138, 17, 0.32) 110.03%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.slider-h {
+  color: #090909;
+}
+
+.slider-sub-h {
+  color: #5f5f5f;
+}
+
+.slider-2nd-p {
+  color: #1a1a1a;
+  padding-top: 19px;
+}
+
+.civil-txt {
+  background-color: transparent;
+  background: linear-gradient(146.79deg, #f4ead8 0%, #e0b764 97.77%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.slider-image-box {
+  padding: 18px;
+  box-shadow: 0px 0px 14.14px 2.83px #d8d8d840;
+}
+
+.slider-img{
+  object-fit: cover;
 }
